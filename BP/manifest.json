@@ -1,24 +1,36 @@
 {
- "format_version": 2, 
- "header": { 
-  "description": "This is a behavior pack used to demo components!", 
-  "name": "Demo Behavior Pack", 
-  "uuid": "d461b49a-c62b-4c4a-9ef9-fdbc7f3421d8", 
-  "version": [ 1, 0, 0 ], 
-  "min_engine_version": [ 1, 19, 20 ] 
- }, 
- "modules": [ 
-  { 
-   "description": "Demo Behavior Pack", 
-   "type": "data", 
-   "uuid": "92bcac87-d05c-4f77-8aea-37f943e3adae", 
-   "version": [ 1, 0, 0 ] 
-  } 
- ], 
- "dependencies": [ 
-  { 
-   "uuid": "24940a6e-4412-4282-81f1-054ebdbd6e48", 
-   "version": [ 1, 0, 0 ] 
-  } 
- ] 
-}
+    "format_version": 2,
+    "header": {
+      "description": "My scripting behavior pack Add-On!",
+      "name": "My Behavior Pack",
+      "uuid":"78d315d1-50b9-46f9-865a-142fd0f5730d",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 20, 30]
+    },
+    "modules":
+      [
+        {
+          "description": "My Second Add-On!",
+            "type": "data",
+            "uuid": "269e7b5d-3523-4522-8a7c-22f060279d5e",
+            "version": [1, 0, 0]
+        },
+        {
+          "description": "Test Scripting",
+            "type": "script",
+            "uuid": "a1f94c46-bb69-43c5-b859-ee8f2f9f49bf",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+      ],
+    "dependencies": [
+      {
+        "module_name":"@minecraft/server",
+        "version":"1.5.0"
+      },
+      {
+        "uuid": "db8e3b18-cd8f-d9fc-ead7-3dfaf6961064",
+			     "version": [1, 0, 0]
+      }  
+    ]
+  }
