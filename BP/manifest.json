@@ -21,11 +21,5 @@
       "version":[1, 0, 0],
       "entry":"scripts/AIPlayer.js"
     }
-  ],
-  "dependencies": [
-    {
-      "uuid":"db8e3b18-cd8f-d9fc-ead7-3dfaf6961064",
-      "version":[1, 0, 0]
-    }
   ]
 }
