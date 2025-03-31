@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "AI Player Behavior Pack",
+    "description": "Ajoute une IA jouant à Minecraft",
+    "uuid": "1c9b7d24-9f3a-4bcd-b87a-4f833a19a177",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 50]
+  },
+  "modules": [
+    {
+      "description": "Scripts AI",
+      "type": "scripting",
+      "uuid": "6f03d6e7-6b62-4c0e-b5a1-12e3d6a95c37",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b26d3e3d-69c1-4d42-bd9c-1b3a2b2d126c",
+      "version": [1, 0, 0]
+    }
+  ]
+}
