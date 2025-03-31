@@ -1,0 +1,19 @@
+
+{
+  "format_version": 2,
+  "header": {
+    "name": "AI Player Resource Pack",
+    "description": "Textures et modèles pour l'IA",
+    "uuid": "b26d3e3d-69c1-4d42-bd9c-1b3a2b2d126c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 50]
+  },
+  "modules": [
+    {
+      "description": "Textures et modèles AI",
+      "type": "resources",
+      "uuid": "d4a4c7e7-8732-4fbd-8e35-8b3b92b6fef8",
+      "version": [1, 0, 0]
+    }
+  ]
+}

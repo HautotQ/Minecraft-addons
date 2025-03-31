@@ -1,0 +1,15 @@
+
+ai_player.name=Joueur IA
+ai_player.description=Une intelligence artificielle qui joue à Minecraft.
+
+command.start_ai=Démarrer l'IA
+command.stop_ai=Arrêter l'IA
+
+message.ai_player_spawned=L'IA a été invoquée avec succès !
+message.ai_player_stopped=L'IA a été arrêtée.
+message.ai_player_moving=L'IA se déplace...
+message.ai_player_mining=L'IA mine un bloc...
+
+menu.ai_settings=Paramètres de l'IA
+menu.ai_enable=Activer l'IA
+menu.ai_disable=Désactiver l'IA
