@@ -3,7 +3,7 @@
  "header": { 
   "description": "This is a behavior pack used to demo components!", 
   "name": "Demo Behavior Pack", 
-  "uuid": "<UUID>", 
+  "uuid": "d461b49a-c62b-4c4a-9ef9-fdbc7f3421d8", 
   "version": [ 1, 0, 0 ], 
   "min_engine_version": [ 1, 19, 20 ] 
  }, 
@@ -11,13 +11,13 @@
   { 
    "description": "Demo Behavior Pack", 
    "type": "data", 
-   "uuid": "<UUID>", 
+   "uuid": "92bcac87-d05c-4f77-8aea-37f943e3adae", 
    "version": [ 1, 0, 0 ] 
   } 
  ], 
  "dependencies": [ 
   { 
-   "uuid": "<Resource Pack UUID>", 
+   "uuid": "24940a6e-4412-4282-81f1-054ebdbd6e48", 
    "version": [ 1, 0, 0 ] 
   } 
  ] 
