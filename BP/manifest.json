@@ -20,7 +20,7 @@
             "type": "script",
             "uuid": "a1f94c46-bb69-43c5-b859-ee8f2f9f49bf",
             "version": [1, 0, 0],
-            "entry": "scripts/main.js"
+            "entry": "scripts/AIPlayer.js"
         }
       ],
     "dependencies": [
