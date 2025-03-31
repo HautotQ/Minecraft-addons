@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Une IA qui joue à Minecraft",
+    "name": "MinecraftAI",
+    "uuid": "86cbef9a-a5df-4e0a-8828-3a41f152eaa1",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Module de ressources pour MinecraftAI",
+      "type": "resources",
+      "uuid": "24e9e2fb-3bce-46fe-b0e1-3ca167a7b753",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Module de comportement pour MinecraftAI",
+      "type": "data",
+      "uuid": "d66e012d-2b8e-4ea0-b29e-2c90f72d8cbb",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["quentin, MCreator"],
+    "url": "https://mcreator.net"
+  }
+}
