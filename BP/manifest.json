@@ -22,11 +22,5 @@
             "version": [1, 0, 0],
             "entry": "scripts/AIPlayer.js"
         }
-      ],
-    "dependencies": [
-      {
-        "module_name":"@minecraft/server",
-        "version": [1, 0, 0]
-      }  
-    ]
+      ]
   }
