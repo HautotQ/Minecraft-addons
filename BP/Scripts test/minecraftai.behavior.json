@@ -1,0 +1,42 @@
+{
+    "format_version": "1.16",
+    "minecraft:script_engine": {
+        "description": {
+            "identifier": "minecraft:js_ia",
+            "version": [1, 0, 0]
+        },
+        "scripts": {
+            "main": "main.js"
+        }
+    },
+    "minecraft:behavior": {
+        "identifier": "myname:minecraftai",
+        "components": {
+            "minecraft:movement": {
+                "value": 1
+            },
+            "minecraft:health": {
+                "value": 20
+            },
+            "minecraft:nameable": {
+                "name": "IA Player"
+            },
+            "minecraft:script": {
+                "description": {
+                    "identifier": "minecraft:js_ia"
+                }
+            }
+        }
+    },
+    "minecraft:entity": {
+        "identifier": "myname:minecraftai",
+        "components": {
+            "minecraft:entity": {
+                "type": "minecraft:player"
+            },
+            "minecraft:behavior": {
+                "behavior_file": "ia_behavior.json"
+            }
+        }
+    }
+}
