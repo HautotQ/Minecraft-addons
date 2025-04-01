@@ -1,0 +1,87 @@
+{
+  "format_version": "1.10",
+  "minecraft:script_logger": {
+    "log": true
+  },
+  "minecraft:entity": {
+    "description": {
+      "identifier": "tabarcarft:ai_player",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "spawn_egg": {
+        "description": {
+          "identifier": "tabarcarft:ai_player_egg",
+          "category": "Misc",
+          "is_experimental": false
+        }
+      }
+    },
+    "components": {
+      "minecraft:movement": {
+        "value": 1
+      },
+      "minecraft:health": {
+        "value": 100
+      },
+      "minecraft:damage": {
+        "value": 5
+      },
+      "minecraft:inventory": {
+        "size": 36
+      },
+      "minecraft:can_climb": {
+        "value": true
+      },
+      "minecraft:behavior.movement.basic": {
+        "speed": 1.5
+      },
+      "minecraft:behavior.movement.flee": {
+        "trigger": "health_below_50",
+        "value": 2.0
+      },
+      "minecraft:behavior.attack.basic": {
+        "target_selector": "nearest",
+        "attack_damage": 20
+      },
+      "minecraft:behavior.dig.basic": {
+        "range": 5
+      },
+      "minecraft:behavior.place.basic": {
+        "range": 3
+      },
+      "minecraft:behavior.build.basic": {
+        "construction_range": 5
+      },
+      "minecraft:look_at": {
+        "value": true
+      },
+      "minecraft:inventory": {
+        "items": [
+          {
+            "id": "minecraft:diamond_sword",
+            "count": 1
+          },
+          {
+            "id": "minecraft:shield",
+            "count": 1
+          },
+          {
+            "id": "minecraft:bread",
+            "count": 64
+          }
+        ]
+      }
+    },
+    "events": {
+      "minecraft:interact": {
+        "filters": [
+          {
+            "event": "minecraft:attack",
+            "filter": "closest"
+          }
+        ]
+      }
+    }
+  }
+}
