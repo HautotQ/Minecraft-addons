@@ -4,7 +4,7 @@ import {
   } from "@minecraft/server";
 
 function mainTick() {
-  if (system.currentTick === 400) {
+  if (system.currentTick % 200 === 0) {
     world.sendMessage("All systems GO!");
     world.sendMessage("Hello world !");
   }
