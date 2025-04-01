@@ -13,20 +13,9 @@
       "type":"data",
       "uuid":"d71a0f16-72aa-4b88-b34e-337b6e632b61",
       "version":[1, 0, 0]
-    },
-    {
-      "description":"Script Module",
-      "type":"script",
-      "uuid":"a1f94c46-bb69-43c5-b859-ee8f2f9f49bf",
-      "version":[1, 0, 0],
-      "entry":"scripts/AIPlayer.js"
     }
   ],
   "dependencies": [
-    {
-      "module_name": "@minecraft/server",
-      "version": "1.5.0"
-    },
     {
       "uuid": "db8e3b18-cd8f-d9fc-ead7-3dfaf6961064",
       "version": [1, 0, 0]
