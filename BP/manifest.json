@@ -10,7 +10,7 @@
   "modules": [
     {
       "description":"Test Module",
-      "type":"data",
+      "type":"behavior",
       "uuid":"d71a0f16-72aa-4b88-b34e-337b6e632b61",
       "version":[1, 0, 0]
     }
