@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "BedrockGPT Pack",
+		"description": "BedrockGPT Pack Behavior Pack",
+		"uuid": "6051cd58-5c46-9405-c2fe-d952ed1ba2f6",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Tabarcraft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.7.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "a235909f-615b-2d05-c143-0fb83943dd28",
+			"type": "data"
+		},
+    {
+       "description": "Test Scripting",
+       "type": "script",
+       "uuid": "eafe6cbd-84dc-462a-a36e-d47db9ebc069",
+       "version": [1, 0, 0],
+       "entry": "scripts/AIPlayer.js"
+    }
+  ],
+	"dependencies": [
+		{
+			"uuid": "f7a3adf8-2bef-8ae7-1b6d-756603192248",
+			"version": [1, 0, 0]
+		},
+    {
+      "module_name":"@minecraft/server",
+      "version":"1.5.0"
+    }
+	]
+}
