@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tabarcraft:screamer",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/screamer"
+			},
+			"geometry": {
+				"default": "geometry.screamer"
+			},
+			"spawn_egg": {
+				"base_color": "#b4271a",
+				"overlay_color": "#3122ee"
+			},
+			"animations": {
+				"walk": "animation.screamer.walk"
+			},
+			"animation_controllers": [
+				{
+					"walk": "controller.animation.screamer.walk"
+				}
+			],
+			"render_controllers": ["controller.render.default"],
+			"enable_attachables": true
+		}
+	}
+}
