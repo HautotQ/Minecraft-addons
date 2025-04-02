@@ -1,0 +1,40 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:behavior": {
+    "description": {
+      "identifier": "tabarcraft:aidefender",
+      "priority": 1,
+      "run_conditions": {
+        "query": "has_target",
+        "operator": "not"
+      }
+    },
+    "components": {
+      "minecraft:behavior.follow_owner": {
+        "priority": 2,
+        "speed_multiplier": 1.2,
+        "start_distance": 6.0,
+        "stop_distance": 2.0
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1.5
+      },
+      "minecraft:behavior.target_nearby_entities": {
+        "priority": 4,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "monster" }
+              ]
+            },
+            "max_dist": 10,
+            "must_see": true,
+            "must_see_forget_duration": 5
+          }
+        ]
+      }
+    }
+  }
+}
