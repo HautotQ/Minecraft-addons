@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Model Pack",
+		"description": "Model Pack Resource Pack",
+		"uuid": "1b5cb1d8-a9e5-2d57-38de-618f471eb652",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Tabarcraft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.7.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Model Pack",
+			"type": "resources",
+			"uuid": "13a44e4d-5135-e9eb-90dd-dbf8abfaeb48",
+			"version": [1, 0, 0]
+		}
+	]
+}
