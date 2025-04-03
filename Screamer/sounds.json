@@ -1,0 +1,20 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"tabarcraft:screamer": {
+				"events": {
+					"ambient": "mob.enderman.scream",
+					"death": "mob.wither.death",
+					"hurt": "mob.ghast.scream",
+					"step": {
+						"pitch": 0.6,
+						"sound": "mob.wither.step",
+						"volume": 0.6
+					}
+				},
+				"pitch": [0.5, 1.3],
+				"volume": 1.2
+			}
+		}
+	}
+}
