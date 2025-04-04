@@ -6,17 +6,13 @@
       "states": {
         "default": {
           "transitions": [
-            {
-              "walking": "query.is_moving"
-            }
+            "walking => query.is_moving"
           ]
         },
         "walking": {
           "animations": [ "walk" ],
           "transitions": [
-            {
-              "default": "!query.is_moving"
-            }
+            "default => !query.is_moving"
           ]
         }
       }
