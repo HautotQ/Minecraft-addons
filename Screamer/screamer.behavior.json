@@ -8,6 +8,9 @@
 			"is_experimental": false
 		},
 		"components": {
+			"minecraft:type_family": {
+				"family": ["monster", "screamer"]
+			},
 			"minecraft:spawn_egg": {
 				"base_color": "#a4369e",
 				"overlay_color": "#2bb90e"
