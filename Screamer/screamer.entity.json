@@ -22,7 +22,7 @@
 			},
 			"scripts": {
 				"animate": [
-					"walk_controller"
+					"controller.animation.screamer.walk"
 				]
 			},
 			"animation_controllers": [
