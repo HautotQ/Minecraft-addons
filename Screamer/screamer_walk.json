@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.screamer.walk": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "walking": "query.is_moving"
+            }
+          ]
+        },
+        "walking": {
+          "animations": [ "walk" ],
+          "transitions": [
+            {
+              "default": "!query.is_moving"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
