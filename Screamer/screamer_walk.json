@@ -1,7 +1,7 @@
 {
   "format_version": "1.10.0",
   "animation_controllers": {
-    "controller.animation.screamer.walk": {
+    "controller.animation.screamer.move": {
       "initial_state": "default",
       "states": {
         "default": {
@@ -10,7 +10,7 @@
           ]
         },
         "walking": {
-          "animations": [ "walk" ],
+          "animations": [ "move" ],
           "transitions": [
             "default => !query.is_moving"
           ]
