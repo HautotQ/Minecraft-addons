@@ -8,6 +8,10 @@
 			"is_experimental": false
 		},
 		"components": {
+			"minecraft:spawn_egg": {
+				"base_color": "#a4369e",
+				"overlay_color": "#2bb90e"
+			},
 			"minecraft:health": {
 				"value": 100,
 				"max": 100
