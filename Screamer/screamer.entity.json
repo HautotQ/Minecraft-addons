@@ -1,42 +1,38 @@
 {
-	"format_version": "1.8.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "tabarcraft:screamer",
-			"min_engine_version": "1.8.0",
-			"materials": {
-				"default": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/entity/screamer"
-			},
-			"geometry": {
-				"default": "geometry.screamer"
-			},
-			"spawn_egg": {
-				"base_color": "#a4369e",
-				"overlay_color": "#2bb90e"
-			},
-			"scripts": {
-				"pre_animation": [
-					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
-				],
-				"animate": [
-					"controller.animation.screamer.move"
-				]
-			},
-			"animations": {
-				"move": "animation.screamer.move",
-				"attack_bare_hand": "animation.screamer.attack_bare_hand",
-				"swimming": "animation.screamer.swimming"
-			},
-			"animation_controllers": [
-				"controller.animation.screamer.move"
-			],
-			"render_controllers": [
-				"controller.render.default"
-			],
-			"enable_attachables": true
-		}
-	}
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tabarcraft:screamer",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/screamer"
+      },
+      "geometry": {
+        "default": "geometry.screamer"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ],
+        "animate": [
+          "controller.animation.screamer.move"
+        ]
+      },
+      "animations": {
+        "move": "animation.screamer.move",
+        "attack_bare_hand": "animation.screamer.attack_bare_hand",
+        "swimming": "animation.screamer.swimming"
+      },
+      "animation_controllers": [
+        "controller.animation.screamer.move"
+      ],
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "enable_attachables": true
+    }
+  }
 }
