@@ -14,19 +14,24 @@
 				"default": "geometry.screamer"
 			},
 			"spawn_egg": {
-				"base_color": "#b4271a",
-				"overlay_color": "#3122ee"
-			},
-			"animations": {
-				"walk": "animation.screamer.walk"
+				"base_color": "#a4369e",
+				"overlay_color": "#2bb90e"
 			},
 			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				],
 				"animate": [
-					"controller.animation.screamer.walk"
+					"controller.animation.screamer.move"
 				]
 			},
+			"animations": {
+				"move": "animation.screamer.move",
+				"attack_bare_hand": "animation.screamer.attack_bare_hand",
+				"swimming": "animation.screamer.swimming"
+			},
 			"animation_controllers": [
-				"controller.animation.screamer.walk"
+				"controller.animation.screamer.move"
 			],
 			"render_controllers": [
 				"controller.render.default"
