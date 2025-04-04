@@ -20,12 +20,17 @@
 			"animations": {
 				"walk": "animation.screamer.walk"
 			},
+			"scripts": {
+				"animate": [
+					"walk_controller"
+				]
+			},
 			"animation_controllers": [
-				{
-					"walk": "controller.animation.screamer.walk"
-				}
+				"controller.animation.screamer.walk"
 			],
-			"render_controllers": ["controller.render.default"],
+			"render_controllers": [
+				"controller.render.default"
+			],
 			"enable_attachables": true
 		}
 	}
