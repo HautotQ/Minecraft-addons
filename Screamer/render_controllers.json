@@ -2,12 +2,11 @@
   "format_version": "1.10.0",
   "render_controllers": {
     "controller.render.default": {
-      "geometry": "Geometry.default",
       "materials": [
-        { "*": "Material.default" }
+        "entity_alphatest"
       ],
       "textures": [
-        "Texture.default"
+        "textures/entity/screamer"
       ]
     }
   }
