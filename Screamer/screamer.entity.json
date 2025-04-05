@@ -5,7 +5,7 @@
       "identifier": "tabarcraft:screamer",
       "min_engine_version": "1.8.0",
       "materials": {
-        "default": "entity_alphatest"
+        "default": "Material.default"
       },
       "textures": {
         "default": "textures/entity/screamer"
