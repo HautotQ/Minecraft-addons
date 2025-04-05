@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Horror Addon",
+		"description": "Horror Addon Behavior Pack",
+		"uuid": "70c6abe3-f07d-49ad-a59a-563cbc18db90",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Tabarcraft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.7.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "c6daebe8-3c8b-4d83-9ce8-40838119ff87",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f3b3eeb1-c584-40f0-ae3b-2d1f983ccef1",
+			"version": [1, 0, 0]
+		}
+	]
+}
