@@ -2,19 +2,19 @@
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "tabarcraft:screamer",
+			"identifier": "tabarcraft:corrupted_alex",
 			"min_engine_version": "1.8.0",
 			"materials": {
 				"default": "zombie"
 			},
 			"textures": {
-				"default": "textures/entity/screamer"
+				"default": "textures/entity/corrupted_alex"
 			},
 			"geometry": {
-				"default": "geometry.screamer"
+				"default": "geometry.corrupted_alex"
 			},
 			"spawn_egg": {
-				"texture": "screamer_spawn_egg"
+				"texture": "corrupted_alex_spawn_egg"
 			},
 			"scripts": {
 				"pre_animation": ["variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"]
@@ -24,7 +24,8 @@
 				"look_at_target_default": "animation.humanoid.look_at_target.default",
 				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
 				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
-				"move": "animation.screamer.move",
+				"move": "animation.corrupted_alex.move",
+				"riding.legs": "animation.humanoid.riding.legs",
 				"holding": "animation.humanoid.holding",
 				"brandish_spear": "animation.humanoid.brandish_spear",
 				"charging": "animation.humanoid.charging",
@@ -34,8 +35,8 @@
 				"damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
 				"bow_and_arrow": "animation.humanoid.bow_and_arrow",
 				"use_item_progress": "animation.humanoid.use_item_progress",
-				"zombie_attack_bare_hand": "animation.screamer.attack_bare_hand",
-				"swimming": "animation.screamer.swimming"
+				"zombie_attack_bare_hand": "animation.corrupted_alex.attack_bare_hand",
+				"swimming": "animation.corrupted_alex.swimming"
 			},
 			"animation_controllers": [
 				{
