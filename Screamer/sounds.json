@@ -1,7 +1,7 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"tabarcraft:screamer": {
+			"tabarcraft:corrupted_alex": {
 				"events": {
 					"ambient": "mob.enderman.scream",
 					"death": "mob.wither.death",
