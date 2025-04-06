@@ -2,7 +2,7 @@
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "tabarcraft:screamer",
+			"identifier": "tabarcraft:corrupted_alex",
 			"is_spawnable": true,
 			"is_summonable": true,
 			"is_experimental": false
