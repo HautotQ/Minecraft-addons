@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Fire Sword",
+    "description": "Custom sword",
+    "uuid": "c821a856-411a-4632-96a4-4f33d2080228",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      06
+    ]
+  },
+  "modules": [
+    {
+      "description": "Add-on Pack Resources",
+      "type": "resources",
+      "uuid": "e5a7f75c-5660-47e8-8420-dfe562ad71d5",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "9aced8d9-f278-448e-82dc-02d106e0a2c2",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.9.1"
+      ]
+    }
+  }
+}
